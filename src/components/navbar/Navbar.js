@@ -73,9 +73,7 @@ const Navbar = () => {
                                 <li className="menu-item " >
                                     <NavLink onClick={toggleClass} activeClassName='is-active' to={`/login-signup`} className="login-btn-home"> Login/SignUp </NavLink>
                                 </li>
-                                <li className="menu-item " >
-                                    <NavLink onClick={toggleClass} activeClassName='is-active' to={`/login-signup`} className="login-btn-home"> Login/SignUp </NavLink>
-                                </li>
+
                                 <li className="menu-item " >
                                     <NavLink onClick={toggleClass} activeClassName='is-active' to={`/franchise`} className="franchise-btn">Franchise</NavLink>
                                 </li>
