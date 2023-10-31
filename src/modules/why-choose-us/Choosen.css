@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    font-family: 'Baloo 2', cursive;
+}
+
+.choose-us {
+    background-color: #e6f5f2;
+    width: 100%;
+    margin: 0 auto;
+    height: 45vh;
+    margin-bottom: 70px;
+    margin-top: 80px;
+}
+
+.choose-us h1 {
+    color: #10b798;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    line-height: 48px;
+    padding-top: 70px;
+
+}
+
+.uclean-main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.uclean-main h1 {
+    color: #10b798;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.uclean-main img {
+    width: 30%;
+    margin-top: 80px;
+}
+
+.uclean-main ul li img.quick-service {
+    margin: -31% 0 0 36%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.quik-text {
+    margin: -30% 0 0 26%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.uclean-main ul li img.door-step {
+    margin: -23% 0 0 28%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.door-text {
+    margin: -22% 0 0 15%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 12%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.uclean-main ul li img.pricing-step {
+    margin: -13% 0 0 24%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.pricing-text {
+    margin: -12% 0 0 12%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 12%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.uclean-main ul li img.state-step {
+    margin: -3% 0 0 29%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.state-text {
+    margin: -1% 0 0 16%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 12%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.uclean-main ul li img.water-step {
+    margin: 5% 0 0 39%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.water-text {
+    margin: 7% 0 0 26%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 12%;
+    vertical-align: middle;
+    border: 0;
+}
+
+/* 2nd Ul start */
+
+.profes-service {
+    margin: -31% 0 0 36%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    width: 6% !important;
+    vertical-align: middle;
+    border: 0;
+}
+
+.profes-text {
+    margin: -30% 0 0 26%;
+    left: 0%;
+    position: absolute;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
