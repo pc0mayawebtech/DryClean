@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css"
+
 import { NavLink } from 'react-router-dom';
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import logo from '../../assets/logo.png';
@@ -72,6 +73,7 @@ const Navbar = () => {
                                 <li className="menu-item " >
                                     <NavLink onClick={toggleClass} activeClassName='is-active' to={`/login-signup`} className="login-btn-home"> Login/SignUp </NavLink>
                                 </li>
+
                                 <li className="menu-item " >
                                     <NavLink onClick={toggleClass} activeClassName='is-active' to={`/franchise`} className="franchise-btn">Franchise</NavLink>
                                 </li>
