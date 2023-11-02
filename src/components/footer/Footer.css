@@ -1,0 +1,191 @@
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #10b798;
+    /* background-color: black; */
+    width: 100%;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.fotter-sec {
+    width: 95%;
+}
+
+.footerlogosectionpara img.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0px 0 10% 0;
+}
+
+.footerlogosectionpara p {
+    font-size: 16px;
+}
+
+.footerlogosection p {
+    font-size: 20px;
+}
+
+.footerlogosection img {
+    width: 150px;
+    height: 60px;
+}
+
+.footerlogosection span {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5% 0;
+}
+
+.footerlogosectionconnection {
+    font-size: 25px;
+    width: 80%;
+}
+
+.footerlogosectionconnection i {
+    margin: 0 5%;
+    color: black;
+}
+
+.footerlogosectionconnection i:hover {
+    color: blue;
+    transition: all 0.3s ease;
+    transform: translateY(-3px);
+}
+
+.footerservicesection {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerservicesection h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footerservicesection a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: initial;
+    line-height: 2rem;
+}
+
+.footerservicesection a:hover {
+    color: #020908;
+    font-weight: bold;
+}
+
+.footerservicesectionsecond {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerservicesectionsecond h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footerservicesectionsecond a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: initial;
+    line-height: 2rem;
+}
+
+#footercompany {
+    margin-top: -12%;
+}
+
+.footerservicesectionsecond a:hover {
+    color: #020908;
+    font-weight: bold;
+}
+
+.footerdisclaimer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+}
+
+.footerdisclaimercopy {
+    margin-top: 1%;
+}
+
+.footerdisclaimercondition {
+    width: 40%;
+}
+
+.footerdisclaimercondition a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.footerdisclaimercondition a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.fa-facebook {
+    background-color: #41639d;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: block;
+    font-size: 12px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    border: 2px solid transparent;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.twitter {
+    background-color: #37b1e2;
+    padding-bottom: 3px;
+}
+
+.linked-in {
+    background-color: #337ab7;
+    margin-left: 5px !important;
+    padding-bottom: 3px;
+}
+
+.insta-grm {
+    background: #d53f59;
+    padding-bottom: 3px;
+}
+
+.you-tube {
+    color: red;
+    background: white;
+    padding-bottom: 3px;
+
+}
+
+.whtsp-footer {
+    margin-right: -15px;
+    margin-top: -4px;
+}
+
+.copy-right {
+    justify-content: space-between;
+    display: flex;
+}
+
+.copy-right span {
+    cursor: pointer;
+}
+
+.copy-right span:hover {
+    color: #29635a;
+}

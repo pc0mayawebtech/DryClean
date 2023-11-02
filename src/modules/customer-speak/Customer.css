@@ -97,8 +97,19 @@
     border-radius: 20px;
 }
 
-
-
 .second-row {
     margin-top: -35px !important;
+}
+
+/* CITIES WE DELIVER TO */
+
+.cities-deliver h2 {
+    font-weight: 900;
+}
+
+.all-icon {
+    color: "#10b798";
+    font-size: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
 }

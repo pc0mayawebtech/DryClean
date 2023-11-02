@@ -7,6 +7,7 @@ import Cust3 from "../../assets/cust_img_3.jpg";
 import FileB from "../../assets/file.jpg";
 import BudgetImg from "../../assets/budget-img.png";
 import MenImg from "../../assets/men-img.png";
+import { FaLocationDot } from "react-icons/fa6"
 
 const Customer = () => {
     return (
@@ -117,6 +118,92 @@ const Customer = () => {
             </div>
 
             {/* CITIES WE DELIVER TO */}
+            <div style={{ backgroundColor: "rgb(219 244 239)" }} >
+                <div className="container text-center cities-deliver">
+                    <div className="row">
+                        <strong className='fs-1 mt-5 mb-4'>CITIES WE DELIVER TO</strong>
+                        <div className="col-lg-2 text-start mb-4" style={{ cursor: "pointer" }}>
+                            <p> <FaLocationDot className="all-icon" />  Aalo</p>
+                            <p>   <FaLocationDot className="all-icon" />  Bahadurgarh </p>
+                            <p>   <FaLocationDot className="all-icon" />  Bettiah </p>
+                            <p>   <FaLocationDot className="all-icon" />  Bokaro </p>
+                            <p>   <FaLocationDot className="all-icon" />  Danapur </p>
+                            <p>   <FaLocationDot className="all-icon" />  Dhule </p>
+                            <p>   <FaLocationDot className="all-icon" />  Faridabad </p>
+                            <p>   <FaLocationDot className="all-icon" />  Haldwani </p>
+                            <p>   <FaLocationDot className="all-icon" />  Itanagar </p>
+                            <p>   <FaLocationDot className="all-icon" />  Jorhat </p>
+                            <p>   <FaLocationDot className="all-icon" />  Kochi </p>
+                        </div>
+                        <div className="col-lg-2 text-start " >
+                            <p> <FaLocationDot className="all-icon" />  Agartala</p>
+                            <p> <FaLocationDot className="all-icon" />  Bahraich</p>
+                            <p> <FaLocationDot className="all-icon" />  Bhiwadi</p>
+                            <p> <FaLocationDot className="all-icon" />  Bongaigaon</p>
+                            <p> <FaLocationDot className="all-icon" />  Darrang</p>
+                            <p> <FaLocationDot className="all-icon" />  Dibrugarh</p>
+                            <p> <FaLocationDot className="all-icon" />  Gandhinagar</p>
+                            <p> <FaLocationDot className="all-icon" />  Hamirpur</p>
+                            <p> <FaLocationDot className="all-icon" />  Jagdalpur</p>
+                            <p> <FaLocationDot className="all-icon" />  Kanpur</p>
+                            <p> <FaLocationDot className="all-icon" />  Kohima</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot className="all-icon" />  Agra</p>
+                            <p> <FaLocationDot className="all-icon" />  Bareilly</p>
+                            <p> <FaLocationDot className="all-icon" />  Bhopal</p>
+                            <p> <FaLocationDot className="all-icon" />  Chandigarh</p>
+                            <p> <FaLocationDot className="all-icon" />  Dehradun</p>
+                            <p> <FaLocationDot className="all-icon" />  Digboi</p>
+                            <p> <FaLocationDot className="all-icon" />  Ganga Nagar</p>
+                            <p> <FaLocationDot className="all-icon" />  Hojai</p>
+                            <p> <FaLocationDot className="all-icon" />  Jagraom</p>
+                            <p> <FaLocationDot className="all-icon" />  Kargil</p>
+                            <p> <FaLocationDot className="all-icon" />  Kokrajhar</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot className="all-icon" />  Ahmedabad</p>
+                            <p> <FaLocationDot className="all-icon" />  Bathinda</p>
+                            <p> <FaLocationDot className="all-icon" />  Bhubaneshwar</p>
+                            <p> <FaLocationDot className="all-icon" />  Chennai</p>
+                            <p> <FaLocationDot className="all-icon" /> Delhi</p>
+                            <p> <FaLocationDot className="all-icon" />  Duliajan</p>
+                            <p> <FaLocationDot className="all-icon" />  Ghaziabad</p>
+                            <p> <FaLocationDot className="all-icon" />  Howrah</p>
+                            <p> <FaLocationDot className="all-icon" />  Jaipur</p>
+                            <p> <FaLocationDot className="all-icon" />  Karimganj</p>
+                            <p> <FaLocationDot className="all-icon" />  Kolhapur</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot className="all-icon" />  Alwar</p>
+                            <p> <FaLocationDot className="all-icon" />  Belgaum</p>
+                            <p> <FaLocationDot className="all-icon" />  Bidar</p>
+                            <p> <FaLocationDot className="all-icon" />  Chitrakoot</p>
+                            <p> <FaLocationDot className="all-icon" /> Deoghar</p>
+                            <p> <FaLocationDot className="all-icon" />  Ellenabad</p>
+                            <p> <FaLocationDot className="all-icon" />  Gurugram</p>
+                            <p> <FaLocationDot className="all-icon" />  Hubli</p>
+                            <p> <FaLocationDot className="all-icon" />  Jammu</p>
+                            <p> <FaLocationDot className="all-icon" />  Kathmandu</p>
+                            <p> <FaLocationDot className="all-icon" />  Kolkata</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot className="all-icon" />  Amravati</p>
+                            <p> <FaLocationDot className="all-icon" />  Bengaluru</p>
+                            <p> <FaLocationDot className="all-icon" />  Bikaner</p>
+                            <p> <FaLocationDot className="all-icon" />  Coimbatore</p>
+                            <p> <FaLocationDot className="all-icon" /> Dhanbad</p>
+                            <p> <FaLocationDot className="all-icon" />  Erode</p>
+                            <p> <FaLocationDot className="all-icon" />  Guwahati</p>
+                            <p> <FaLocationDot className="all-icon" />  Hyderabad</p>
+                            <p> <FaLocationDot className="all-icon" />  Jamshedpur</p>
+                            <p> <FaLocationDot className="all-icon" /> Kharupetia</p>
+                            <p> <FaLocationDot className="all-icon" />  Kurnool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }
