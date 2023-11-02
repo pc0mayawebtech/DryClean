@@ -106,3 +106,10 @@
 .cities-deliver h2 {
     font-weight: 900;
 }
+
+.all-icon {
+    color: "#10b798";
+    font-size: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
