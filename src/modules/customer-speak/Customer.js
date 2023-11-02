@@ -7,6 +7,7 @@ import Cust3 from "../../assets/cust_img_3.jpg";
 import FileB from "../../assets/file.jpg";
 import BudgetImg from "../../assets/budget-img.png";
 import MenImg from "../../assets/men-img.png";
+import { FaLocationDot } from "react-icons/fa6"
 
 const Customer = () => {
     return (
@@ -117,6 +118,92 @@ const Customer = () => {
             </div>
 
             {/* CITIES WE DELIVER TO */}
+            <div style={{ backgroundColor: "rgb(219 244 239)" }} >
+                <div className="container text-center cities-deliver">
+                    <div className="row">
+                        <strong className='fs-1 mt-5 mb-4'>CITIES WE DELIVER TO</strong>
+                        <div className="col-lg-2 text-start mb-4" style={{ cursor: "pointer" }}>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Aalo</p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bahadurgarh </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bettiah </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bokaro </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Danapur </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Dhule </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Faridabad </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Haldwani </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Itanagar </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jorhat </p>
+                            <p>   <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kochi </p>
+                        </div>
+                        <div className="col-lg-2 text-start " >
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Agartala</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bahraich</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bhiwadi</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bongaigaon</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Darrang</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Dibrugarh</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Gandhinagar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Hamirpur</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jagdalpur</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kanpur</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kohima</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Agra</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bareilly</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bhopal</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Chandigarh</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Dehradun</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Digboi</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Ganga Nagar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Hojai</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jagraom</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kargil</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kokrajhar</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Ahmedabad</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bathinda</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bhubaneshwar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Chennai</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} /> Delhi</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Duliajan</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Ghaziabad</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Howrah</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jaipur</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Karimganj</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kolhapur</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Alwar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Belgaum</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bidar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Chitrakoot</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} /> Deoghar</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Ellenabad</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Gurugram</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Hubli</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jammu</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kathmandu</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kolkata</p>
+                        </div>
+                        <div className="col-lg-2 text-start">
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Amravati</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bengaluru</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Bikaner</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Coimbatore</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} /> Dhanbad</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Erode</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Guwahati</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Hyderabad</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Jamshedpur</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} /> Kharupetia</p>
+                            <p> <FaLocationDot style={{ color: "#10b798", fontSize: "15px", marginTop: "-3px", marginRight: "5px" }} />  Kurnool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     )
 }

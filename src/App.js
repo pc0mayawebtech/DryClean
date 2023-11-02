@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './modules/homepage/Home';
 import Choosen from './modules/why-choose-us/Choosen';
 import Customer from './modules/customer-speak/Customer';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <Choosen />
         <Customer />
+        <Footer />
       </>
     </>
   );
